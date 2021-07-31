@@ -1,6 +1,6 @@
 # BOJ 18399
 # Author: Gu Lee
-# Date: 2021.07.23
+# Date: 2021.07.25
 # Source: https://www.acmicpc.net/problem/11399
 
 n = int(input())
