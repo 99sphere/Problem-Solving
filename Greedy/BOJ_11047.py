@@ -1,6 +1,6 @@
 # BOJ 11047
 # Author: Gu Lee
-# Date: 2021.07.23
+# Date: 2021.07.28
 # Source: https://www.acmicpc.net/problem/11047
 
 n, val = map(int, input().split())
