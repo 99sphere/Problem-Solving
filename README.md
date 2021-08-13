@@ -21,3 +21,6 @@
     Greedy - BOJ_1541   
     Greedy - BOJ_5585
     Greedy - BOJ_2217
+    
+##### 2021.08.14
+    Greedy - BOJ_10162   
