@@ -1,6 +1,6 @@
 # Algorithm Study
 
-### 취미로 하는 알고리즘 공부
+#### Record
 
 ##### 2021.07.06
     Implementation - BOJ_2941   
