@@ -1,6 +1,8 @@
 # Algorithm Study
 
-#### Record
+<details>
+<summary>Record</summary>
+<div markdown="1">
 
 ##### 2021.07.06
     Implementation - BOJ_2941   
@@ -24,3 +26,7 @@
     
 ##### 2021.08.14
     Greedy - BOJ_10162   
+
+</div>
+</details>
+
