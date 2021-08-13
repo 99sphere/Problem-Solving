@@ -1,4 +1,4 @@
-# BOJ 18399
+# BOJ 11399
 # Author: Gu Lee
 # Date: 2021.07.25
 # Source: https://www.acmicpc.net/problem/11399
