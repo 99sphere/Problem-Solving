@@ -1,6 +1,6 @@
 # BOJ 5585
 # Author: Gu Lee
-# Date: 2021.07.13
+# Date: 2021.08.13
 # Source: https://www.acmicpc.net/problem/5585
 
 n = int(input())
