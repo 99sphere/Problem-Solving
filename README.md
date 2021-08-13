@@ -1,7 +1,7 @@
 # Algorithm Study
 
 <details>
-<summary><b>Record</b></summary>
+<summary><b>History</b></summary>
 <div markdown="1">
 
 ##### 2021.07.06
