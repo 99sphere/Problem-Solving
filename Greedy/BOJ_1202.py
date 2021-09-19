@@ -2,8 +2,10 @@
 # Author: Gu Lee
 # Date: 2021.09.19
 # Source: https://www.acmicpc.net/problem/1202
+
 import heapq
 import sys
+
 n, k = map(int, sys.stdin.readline().split())
 jewels = []
 for _ in range(n):
