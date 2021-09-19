@@ -34,6 +34,7 @@
 ##### 2021.09.19
     Greedy - BOJ_1789
     Greedy - BOJ_1715
+    Greedy - BOJ_4796
 </div>
 </details>
 
