@@ -50,7 +50,7 @@
     Greedy - BOJ_12904
     Greedy - BOJ_2109
     Greedy - BOJ_1461
-    Greedy - BOJ_1781
+    Greedy - BOJ_1781 --> 왜 맞았지?
 </div>
 </details>
 
