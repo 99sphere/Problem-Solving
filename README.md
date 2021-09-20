@@ -49,6 +49,7 @@
     Greedy - BOJ_13904
     Greedy - BOJ_12904
     Greedy - BOJ_2109
+    Greedy - BOJ_1781
 </div>
 </details>
 
