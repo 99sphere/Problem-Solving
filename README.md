@@ -43,7 +43,7 @@
 ##### 2021.09.20
     Greedy - BOJ_1700
     Greedy - BOJ_11000
-    
+    Greedy - BOJ_9576   
     
 </div>
 </details>
