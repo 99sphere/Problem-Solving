@@ -8,10 +8,10 @@
 <summary><b>Greedy Example</b></summary>
 <div markdown="1">
         
-                BOJ 14698
-                Author: Gu Lee
-                Date: 2021.09.22
-                Source: https://www.acmicpc.net/problem/14698
+        BOJ 14698   
+        Author: Gu Lee   
+        Date: 2021.09.22   
+        Source: https://www.acmicpc.net/problem/14698   
         
         import sys
         input = sys.stdin.readline
