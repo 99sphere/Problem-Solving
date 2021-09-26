@@ -1,5 +1,46 @@
 # Algorithm Study
 
+## 1. Greedy
+탐욕법. 이름에서 알 수 있듯이 문제에서 제시하는 기준에 따라, 각 상황에서 가장 적합한(보통 최대 or 최소) 선택을 하면 된다. 이로 인해 sorting을 자주 하게 되는데, 보통 heapsort를 이용하더라.
+
+
+<details>
+<summary><b>Greedy Example</b></summary>
+<div markdown="1">
+        # BOJ 14698
+        # Author: Gu Lee
+        # Date: 2021.09.22
+        # Source: https://www.acmicpc.net/problem/14698
+
+        import sys
+        input = sys.stdin.readline
+        import heapq
+
+        T = int(input())
+        for i in range(T):
+            n = int(input())
+            if n == 1:
+                input()
+                print(1)
+                continue
+            else:
+                slimes = list(map(int, input().split()))
+                heapq.heapify(slimes)
+                result = 1
+                while True:
+                    first = heapq.heappop(slimes)
+                    if len(slimes) == 0:
+                        print(result%1000000007)
+                        break
+                    second = heapq.heappop(slimes)
+                    result *= (first * second)
+                    heapq.heappush(slimes, first*second)
+</div>
+</details>
+
+
+
+
 <details>
 <summary><b>History</b></summary>
 <div markdown="1">
