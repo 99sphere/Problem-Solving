@@ -5,7 +5,7 @@
 
 
 <details>
-<summary><b>Greedy Example</b></summary>
+<summary><b>Greedy Algorithm Example</b></summary>
 <div markdown="1">
         
         BOJ 14698   
