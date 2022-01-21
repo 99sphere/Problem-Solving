@@ -100,6 +100,9 @@
 ##### 2021.09.22
     Greedy - BOJ_2141
     Greedy - BOJ_1339
+        
+##### 2021.01.21
+    Greedy - BOJ_1826
 </div>
 </details>
 
