@@ -116,6 +116,9 @@
         
 ##### 2021.01.30
     DP - BOJ_11659
+        
+##### 2021.02.06
+    Graph Traversal - BOJ_2178
 </div>
 </details>
 
