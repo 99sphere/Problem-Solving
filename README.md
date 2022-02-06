@@ -119,6 +119,7 @@
         
 ##### 2021.02.06
     Graph Traversal - BOJ_2178
+    Graph Traversal - BOJ_2667
 </div>
 </details>
 
