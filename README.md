@@ -53,7 +53,7 @@
 인접 리스트(Adjacency List) : 리스트로 그래프의 연결관계를 표현하는 방식
 
 <img src="https://user-images.githubusercontent.com/59161083/153702041-336984b6-9357-48d8-844f-e5d0030f227b.png" width="50%" height="50%" alt="인접행렬"></img>
-<img src="https://user-images.githubusercontent.com/59161083/153702047-6024b554-5540-4bed-b245-a8d1ee5f5ff1.png" width="50%" height="50%" alt="인접리스트"></img>
+<img src="https://user-images.githubusercontent.com/59161083/153702147-43fe53fe-e63f-4f72-ba37-6bae46a31a51.png" width="50%" height="50%" alt="인접리스트"></img>
 
 ### DFS
 - DFS(Depth First Search)는 깊이 우선 탐색 이라고도 불리며, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘이다. 
