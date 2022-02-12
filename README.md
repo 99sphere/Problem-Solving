@@ -6,9 +6,9 @@
 <details>
 <summary><b>Greedy Algorithm Example</b></summary>
 <div markdown="1">
- [BOJ_14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)   
- [네이버 바로가기](http://www.naver.com/)
-</div>
+ [BOJ_14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
+ [네이버 바로가기](http://www.naver.com/)   
+</div> 
 </details>
 
 
