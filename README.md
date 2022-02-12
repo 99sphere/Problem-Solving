@@ -6,7 +6,7 @@
 <details>
 <summary><b>Greedy Algorithm Example</b></summary>
 <div markdown="1">
- [BOJ 14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)
+ [BOJ 14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)   
 </div>
 </details>
 
