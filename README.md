@@ -65,9 +65,8 @@
 
 - DFS 예제     
 <img src="https://user-images.githubusercontent.com/59161083/153702677-43bdc09a-dd1c-4ac4-b040-c4527e7c0f5e.PNG" width="45%" height="50%" alt="인접행렬"></img>
-
+- 노드 1에서 시작한 경우, 노드의 탐색 순서는 (1 → 2 → 7 → 6 → 8 → 3 → 4 → 5) 이다. 
 - DFS 소스코드
-
 ```python3
 # DFS 메서드 정의
 def dfs(graph, v, visited):
