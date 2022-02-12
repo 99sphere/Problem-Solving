@@ -8,7 +8,7 @@
 - 탐욕법. 현재 상황에서 가장 최선의 것만 고르는 방식. 보통 문제에서 제시하는 기준에 따라, 각 상황에서 **가장 최선의 (보통 가장 큰 순서대로 or 가장 작은 순서대로) 선택**을 하면 된다. 
 - 이로 인해 자주 정렬 알고리즘과 짝을 이뤄 출제되는데, 문제 해결에는 보통 heapsort를 이용하더라. heapq 라이브러리를 이용하면 O(log n) 으로 정렬이 가능하다.
 
-### :+1:Greedy Algorithm Example:+1:
+### :rocket: Greedy Algorithm Example :rocket:
 - [BOJ_14698](https://www.acmicpc.net/problem/14698), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
 
 *****
@@ -25,7 +25,7 @@
 1,000,000|약 4MB|
 10,000,000|약 40MB|
 
-### :+1:Implementation Example:+1:      
+### :rocket: Implementation Example :rocket:      
 
 *****
 
