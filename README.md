@@ -39,8 +39,13 @@
 </details>
 
 
-## 2. Graph Traversal    
+## 1. Graph Traversal    
 ??? 
+
+## 1. Sorting
+
+## 1. Binary Search
+
 
 <details>
 <summary><b>History</b></summary>
