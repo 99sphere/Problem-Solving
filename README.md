@@ -49,13 +49,17 @@
 
 ### 그래프
 - 그래프 탐색이란 하나의 노드를 시작으로 다수의 노드를 방문하는 것을 말한다. 이때 그래프는 크게 2가지 방식으로 표현할 수 있다.
-인접 행렬(Adjacency Matrix) : 2차원 배열로 그래프의 연결관계를 표현하는 방식
-인접 리스트(Adjacency List) : 리스트로 그래프의 연결관계를 표현하는 방식
-
-<img src="https://user-images.githubusercontent.com/59161083/153702041-336984b6-9357-48d8-844f-e5d0030f227b.png" width="45%" height="50%" alt="인접행렬"></img>   <img src="https://user-images.githubusercontent.com/59161083/153702147-43fe53fe-e63f-4f72-ba37-6bae46a31a51.png" width="45%" height="50%" alt="인접리스트"></img>
-
+- 인접 행렬(Adjacency Matrix) : 2차원 배열로 그래프의 연결관계를 표현하는 방식
+<img src="https://user-images.githubusercontent.com/59161083/153702041-336984b6-9357-48d8-844f-e5d0030f227b.png" width="45%" height="50%" alt="인접행렬">
+- 인접 리스트(Adjacency List) : 리스트로 그래프의 연결관계를 표현하는 방식
+</img>   <img src="https://user-images.githubusercontent.com/59161083/153702147-43fe53fe-e63f-4f72-ba37-6bae46a31a51.png" width="45%" height="50%" alt="인접리스트"></img>
+- 위의 두 방식을 비교해보자. Adjacency Matrix 방식은 모든 관계를 저장하므로 노드 개수가 많을수록 메모리가 불필요하게 낭비된다. 반면, Adjacency List 방식은 연결된 정보만을 저장하기 때문에 메모리를 효율적으로 사용한다. 하지만 이로 인해 Adjacency List 방식은 Adjacency Matrix 방식에 비해 특정 두 노드가 연결되어 있는지에 대한 정보를 얻는 속도가 느리다. Adjacency List 방식에서는 연결된 데이터를 하나씩 확인해야 하기 때문이다.
+- 
 ### DFS
-- DFS(Depth First Search)는 깊이 우선 탐색 이라고도 불리며, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘이다. 
+- DFS(Depth First Search)는 깊이 우선 탐색 이라고도 불리며, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘이다. 동작 과정은 아래와 같다.
+    1. 탐색 시작 노드를 스택에 삽입하고 방문처리를 한다.
+    2. 스택의 최상단 노드에 방문하지 않은 인접 노드가 있으면 그 인접노드를 스택에 넣고 방문처리를 한다. 방문하지 않은 인접노드가 없으면 스택에서 최상단 노드를 꺼낸다.
+    3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 *****
 ## 4. Sorting
 *****
