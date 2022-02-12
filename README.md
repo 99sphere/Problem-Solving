@@ -1,6 +1,7 @@
 # Algorithm Study
 
 *****
+
 ## 1. Greedy Algorithm
 > **현재 상황에서 가장 좋아보이는 것만을 선택하는 알고리즘**
 
@@ -11,6 +12,7 @@
 - [BOJ_14698](https://www.acmicpc.net/problem/14698), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
 
 *****
+
 ## 2. Implementation    
 > **머릿속에 있는 알고리즘을 정확하고 빠르게 프로그램으로 작성하기**
 
@@ -22,11 +24,13 @@
 1,000|약 4KB|
 1,000,000|약 4MB|
 10,000,000|약 40MB|
-*****
+
 ### :+1:Implementation Example:+1:      
 
+*****
+
 ## 3. Graph Traversal    
-> ****
+> **그래프를 탐색하기 위한 대표적인 두 가지 알고리즘**
 
 *****
 ## 4. Sorting
