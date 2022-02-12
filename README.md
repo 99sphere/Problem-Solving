@@ -125,7 +125,7 @@
 ##### 2021.02.12
     Graph Traversal - BOJ_7576   
     Graph Traversal - BOJ_10026 (Python3 시간초과, PyPy3 통과)   
-
+    Graph Traversal - BOJ_1987
 </div>
 </details>
 
