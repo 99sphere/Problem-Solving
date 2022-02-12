@@ -6,6 +6,7 @@
 <details>
 <summary><b>Greedy Algorithm Example</b></summary>
 <div markdown="1">
+        
         BOJ 14698   
         Author: Gu Lee   
         Date: 2021.09.22   
@@ -34,6 +35,7 @@
                     second = heapq.heappop(slimes)
                     result *= (first * second)
                     heapq.heappush(slimes, first*second)
+        
 </div>
 </details>
 
