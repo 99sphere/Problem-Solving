@@ -1,16 +1,10 @@
 # Algorithm Study
 
-## 1. Greedy
+## 1. Greedy Algorithm
 탐욕법. 이름에서 알 수 있듯이 문제에서 제시하는 기준에 따라, 각 상황에서 가장 적절한 (보통 최대 or 최소) 선택을 하면 된다. 이로 인해 sorting을 자주 하게 되는데, 보통 heapsort를 이용하더라. heapq 라이브러리를 이용하면 O(log n) 으로 정렬이 가능하다.
-[네이버 바로가기](http://www.naver.com/)
-<details>
-<summary><b>Greedy Algorithm Example</b></summary>
-<div markdown="1">
- [BOJ_14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
- [네이버 바로가기](http://www.naver.com/)   
-</div> 
-</details>
 
+### Greedy Algorithm Example
+ [BOJ_14698](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
 
 ## 2. Graph Traversal    
 
