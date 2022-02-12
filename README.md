@@ -133,8 +133,8 @@ bfs(graph, 1, visited)
 - 이처럼 BFS는 큐 자료구조에 기초한다는 점에서 구현이 간단하다. 실제로 구현함에 있어 앞서 언급한대로 deque 라이브러리를 사용하는 것이 좋으며 탐색을 수행함에 있어 O(N)의 시간이 소요된다. 일반적인 경우 **실제 수행시간은 DFS보다 좋은 편**이라는 점까지만 추가로 기억하자.
 
 ### :rocket: Graph Traversal Example :rocket:      
-- [BOJ_14698](https://www.acmicpc.net/problem/14698), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
-- 
+- [BOJ_7576](https://www.acmicpc.net/problem/7576), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7576.py): 하루가 지나면 익은 토마토와 인접한 안익은 토마토들이 익게 된다. 모든 토마토가 익으려면 최소 며칠이 걸릴까?    
+- [BOJ_7569](https://www.acmicpc.net/problem/7569), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7569.py): 7576번 문제의 3차원      
 *****
 ## 4. Sorting
 *****
