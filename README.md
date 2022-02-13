@@ -226,6 +226,9 @@ bfs(graph, 1, visited)
     Graph Traversal - BOJ_10026 (Python3 시간초과, PyPy3 통과)   
     Graph Traversal - BOJ_7569
     Graph Traversal - BOJ_1987
+   
+##### 2021.02.13
+    Graph Traversal - BOJ_2206
 </div>
 </details>
 
