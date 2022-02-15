@@ -229,6 +229,10 @@ bfs(graph, 1, visited)
    
 ##### 2021.02.13
     Graph Traversal - BOJ_2206
+
+##### 2021.02.15
+    Graph Traversal + Dynamic Programming - BOJ_1520
+   
 </div>
 </details>
 
