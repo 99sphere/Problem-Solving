@@ -8,7 +8,7 @@
 - 탐욕법. 현재 상황에서 가장 최선의 것만 고르는 방식. 보통 문제에서 제시하는 기준에 따라, 각 상황에서 **가장 최선의 (보통 가장 큰 순서대로 or 가장 작은 순서대로) 선택**을 하면 된다. 
 - 이로 인해 자주 정렬 알고리즘과 짝을 이뤄 출제되는데, 문제 해결에는 보통 heapsort를 이용하더라. heapq 라이브러리를 이용하면 O(log n) 으로 정렬이 가능하다.
 
-### :rocket: Greedy Algorithm Example :rocket:
+### :trophy: Greedy Algorithm Example :trophy:
 - [BOJ_14698](https://www.acmicpc.net/problem/14698), [Solution](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_14698.py)      
 
 *****
@@ -27,7 +27,7 @@
 1,000,000|약 4MB|
 10,000,000|약 40MB|
 
-### :rocket: Implementation Example :rocket:      
+### :trophy: Implementation Example :trophy:    
 
 *****
 
@@ -63,10 +63,10 @@
 > 2. 스택의 최상단 노드에 방문하지 않은 인접 노드가 있으면 그 인접노드를 스택에 넣고 방문처리를 한다. 방문하지 않은 인접노드가 없으면 스택에서 최상단 노드를 꺼낸다.
 > 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
-- DFS 예제     
+#### DFS 예제     
 <img src="https://user-images.githubusercontent.com/59161083/153702677-43bdc09a-dd1c-4ac4-b040-c4527e7c0f5e.PNG" width="45%" height="50%" alt="인접행렬"></img>
 - 노드 1에서 시작한 경우, 노드의 탐색 순서는 (1 → 2 → 7 → 6 → 8 → 3 → 4 → 5) 이다. 
-- DFS 소스코드
+#### DFS 소스코드
 ```python3
 # DFS 메서드 정의
 def dfs(graph, v, visited):
@@ -96,10 +96,11 @@ dfs(graph, 1, visited)
 > 1. 탐색시작 노드를 큐에 삽입하고 방문처리를 한다.
 > 2. 큐에서 노드를 꺼내 해당 노드의 인접노드 중에서 방문하지 않은 노드를 모두 큐에 삽입하고 방문 처리를 한다. 
 > 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
-- BFS 예제     
+
+#### BFS 예제     
 <img src="https://user-images.githubusercontent.com/59161083/153702677-43bdc09a-dd1c-4ac4-b040-c4527e7c0f5e.PNG" width="45%" height="50%" alt="인접행렬"></img>
 - 노드 1에서 시작한 경우, 노드의 탐색 순서는 (1 → 2 → 3 → 8 → 7 → 4 → 5 → 6) 이다. 
-- BFS 소스코드
+#### BFS 소스코드
 ```python3
 from collections import deque
 
@@ -132,13 +133,38 @@ bfs(graph, 1, visited)
 
 - 이처럼 BFS는 큐 자료구조에 기초한다는 점에서 구현이 간단하다. 실제로 구현함에 있어 앞서 언급한대로 deque 라이브러리를 사용하는 것이 좋으며 탐색을 수행함에 있어 O(N)의 시간이 소요된다. 일반적인 경우 **실제 수행시간은 DFS보다 좋은 편**이라는 점까지만 추가로 기억하자.
 
-### :rocket: Graph Traversal Example :rocket:      
+### :trophy: Graph Traversal Example :trophy:       
 - [BOJ_7576](https://www.acmicpc.net/problem/7576): 하루가 지나면 익은 토마토와 인접한 안익은 토마토들이 익게 된다. 모든 토마토가 익으려면 최소 며칠이 걸릴까?, [~~Solution~~](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7576.py)
 - [BOJ_7569](https://www.acmicpc.net/problem/7569): 7576번 문제의 3차원 버전, [~~Solution~~](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7569.py)
 *****
 ## 4. Sorting
+> **연속된 데이터를 기준에 따라서 정렬하기 위한 알고리즘**
+### 정렬 알고리즘 개요
+정렬(sorting)이란 데이터를 특정한 기준에 따라서 순서대로 나열하는 것을 말한다. 데이터를 가공할때 오름차순이나 내림차순으로 정렬해서 사용하는 경우가 많기에 정렬 알고리즘은 프로그램을 작성할때 가장 많이 사용되는 알고리즘 중 하나이다. 정렬 알고리즘으로 데이터를 정렬하면 이진탐색(Binary Search)이 가능해진다. 다양한 정렬 알고리즘들이 존재하지만, 여기서는 선택정렬(Selection Sort), 삽입정렬(Insertion Sort), 퀵정렬(Quick Sort), 계수정렬(Counting Sort)에 대해 다룬다.
+
+### 선택정렬(Selection Sort)
+컴퓨터가 데이터를 정렬할 때 어떻게 할 지 한번 생각해보자. **데이터가 무작위로 여러개 있을 때, 이 중에서 가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두번째 데이터와 바꾸는 과정을 반복하면 어떨까?** 이 방법은 가장 원시적인 방법으로 매번 '가장 작은 것을 선택'한다는 의미에서 선택정렬(Selection Sort) 알고리즘이라고 한다. 가장 작은 것을 선택해서 앞으로 보내는 과정을 수행하다보면, 전체 데이터의 정렬이 이루어진다.
+
+#### 선택정렬 소스코드
+```python3
+array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+
+for i in range(len(array)):
+   min_index = i # 가장 작은 원소의 인덱스
+   for j in range(i+1, len(array)):
+      if array[min_index] > array[j]:
+         min_index = j
+   array[i], array[min_index] = array[min_index], array[i]
+   
+print(array)
+```
+#### 선택정렬의 시간 복잡도
+선택정렬은 N-1번 만큼 가장 작은 수를 찾아서 맨 앞으로 보내야 한다. 또한, 매번 가장 작은 수를 찾기 위한 비교연산이 필요하다. 구현방식에 따라 사소한 오차는 있을 수 있지만, 연산 횟수는 
+N + (N-1) + ... + 2로 볼 수 있다. 따라서 Big-Oh 표기법을 이용하여 O(N^2)
 *****
 ## 5. Binary Search
+
+## 6. Dynamic Programming
 
 *****
 <details>
