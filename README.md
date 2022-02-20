@@ -289,6 +289,8 @@ def binary_search(array, target, start, end):
    return None
 ```
 
+### :trophy: Binary Search Example :trophy:
+
 
 *****
 
