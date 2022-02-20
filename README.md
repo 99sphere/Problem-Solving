@@ -440,7 +440,10 @@ print(d[n])
 
 ##### 2021.02.15
     > Graph Traversal + Dynamic Programming - BOJ_1520
-   
+
+##### 2021.02.20
+    > Graph Traversal - BOJ_2573 - visit 여부를 0/1 표시하다가 헷갈려서 개같이 멸망... 다음엔 그냥 True/False로 하자.
+
 </div>
 </details>
 
