@@ -251,12 +251,49 @@ def sequential_search(n, target, array):
 이처럼 순차탐색은 데이터의 정렬 여부와 상관없이 가장 앞에 있는 원소부터 하나씩 확인해야 한다는 점이 특징이다. 따라서 데이터의 개수가 N일때 최대 N번의 비교연산이 필요하므로 순차탐색의 최악의 경우 시간복잡도는 O(N)이다.
 
 ### 이진탐색 (Binary Search) : 반으로 쪼개면서 탐색하기
-이진탐색은 배열 내부의 데이터가 
+이진탐색은 배열 내부의 데이터가 정렬되어 있어야만 사용할 수 있는 알고리즘이다. 데이터가 무작위일때는 사용할 수 없지마느 이미 정렬되어 있다면 매우 빠르게 데이터를 찾을 수 있다는 특징이 있다. 이진탐색은 탐색범위를 절반씩 좁혀가며 데이터를 탐색한다. 이진탐색은 위치를 나타내는 변수 3개를 사용하는데 탐색하고자 하는 범위의 시작점, 끝점, 그리고 중간점이다. 찾으려는 데이터와 중간점 위치에 있는 데이터를 반복적으로 비교해서 원하는 데이터를 찾는게 이진탐색 과정이다. 이진탐색은 한번 확일할때마다 확인하는 원소의 개수가 절반씩 줄어든다는 점에서 시간복잡도가 O(logN)이다. 이진탐색을 구현하는 방법에는 2가지가 있는데 하나는 재귀함수를 이용하는 것이고, 다른 하나는 반복문을 이용하는 것이다.
+
+#### 이진탐색 소스코드 - 재귀함수
+```python3
+# 이진탐색 소스코드 구현(재귀함수)
+def binary_search(array, target, start, end):
+   if start > end:
+      return None
+   mid = (start + end) // 2
+   # 찾은 경우 중간점 인덱스 반환
+   if array[mid] == target:
+      return mid
+   # 중간점의 값보다 찾고자 하는 값이 작은 경우 왼쪽 확인
+   elif array[mid] > target:
+         return binary_search(array, target, start, mid-1)
+   # 중간점의 값보다 찾고자 하는 값이 큰 경우 오른쪽 확인
+   else:
+      return binary_search(array, target, mid+1, end)
+```
+
+#### 이진탐색 소스코드 - 반복문
+```python3
+# 이진탐색 소스코드 구현(반복문)
+def binary_search(array, target, start, end):
+   while start < end:
+      mid = (start + end) // 2
+      # 찾은 경우 중간점 인덱스 반환
+      if array[mid] == target:
+         return mid
+      # 중간점의 값보다 찾고자 하는 값이 작은 경우 왼쪽 확인
+      elif array[mid] > target:
+         end = mid-1
+      # 중간점의 값보다 찾고자 하는 값이 큰 경우 오른쪽 확인
+      else:
+         start = mid+1
+   return None
+```
+
 
 *****
 
 ## 6. Dynamic Programming
-> ****
+> **한번 계산한 문제는 다시 계산하지 않도록 하는 알고리즘**
 
 *****
 
