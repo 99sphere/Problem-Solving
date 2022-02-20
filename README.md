@@ -1,4 +1,4 @@
-# Algorithm Study
+#  :whale: Algorithm Study :whale:
 
 *****
 
