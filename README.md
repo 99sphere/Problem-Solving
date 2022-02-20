@@ -64,7 +64,7 @@
 > 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
 #### DFS 예제     
-<img src="https://user-images.githubusercontent.com/59161083/154830097-295f543a-9e97-4e7d-baa6-a46236f9a5a4.png" width="45%" height="50%" alt="인접행렬"></img>
+<img src="https://user-images.githubusercontent.com/59161083/154830097-295f543a-9e97-4e7d-baa6-a46236f9a5a4.png" width="30%" height="30%" alt="인접행렬"></img>
 - 노드 1에서 시작한 경우, 노드의 탐색 순서는 (1 → 2 → 7 → 6 → 8 → 3 → 4 → 5) 이다. 
 #### DFS 소스코드
 ```python3
@@ -98,7 +98,7 @@ dfs(graph, 1, visited)
 > 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
 #### BFS 예제     
-<img src="https://user-images.githubusercontent.com/59161083/154830097-295f543a-9e97-4e7d-baa6-a46236f9a5a4.png" width="45%" height="50%" alt="인접행렬"></img>
+<img src="https://user-images.githubusercontent.com/59161083/154830097-295f543a-9e97-4e7d-baa6-a46236f9a5a4.png" width="30%" height="30%" alt="인접행렬"></img>
 - 노드 1에서 시작한 경우, 노드의 탐색 순서는 (1 → 2 → 3 → 8 → 7 → 4 → 5 → 6) 이다. 
 #### BFS 소스코드
 ```python3
