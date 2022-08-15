@@ -445,7 +445,8 @@ print(d[n])
     > Graph Traversal - BOJ_2573 - visit 여부를 0/1 표시하다가 헷갈려서 개같이 멸망... 다음엔 그냥 True/False로 하자.
 
 ##### 2022.08.15
-    > Graph Traversal -BOJ_2583 
+    > Graph Traversal - BOJ_11724
+    > Graph Traversal - BOJ_2583 
     
     
 </div>
