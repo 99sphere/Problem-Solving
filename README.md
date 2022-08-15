@@ -450,6 +450,8 @@ print(d[n])
     > Graph Traversal - BOJ_11724
     > Graph Traversal - BOJ_2583 
     > Dynamic Programming - BOJ_9095
+    > Dynamic Programming - BOJ_11726
+    > Dynamic Programming - BOJ_11053
 </div>
 </details>
 
