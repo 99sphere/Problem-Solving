@@ -408,42 +408,46 @@ print(d[n])
     > Greedy - BOJ_2141
     > Greedy - BOJ_1339
         
-##### 2021.01.21
+##### 2022.01.21
     > Greedy - BOJ_1826
 
-##### 2021.01.22
+##### 2022.01.22
     > Greedy - BOJ_1092
     > Greedy - BOJ_2262
         
-##### 2021.01.22
+##### 2022.01.22
     > Greedy - BOJ_1374
         
-##### 2021.01.28
+##### 2022.01.28
     > Greedy - BOJ_5430
         
-##### 2021.01.30
+##### 2022.01.30
     > DP - BOJ_11659
         
-##### 2021.02.06
+##### 2022.02.06
     > Graph Traversal - BOJ_2178
     > Graph Traversal - BOJ_2667
     > Graph Traversal - BOJ_1012
         
-##### 2021.02.12
+##### 2022.02.12
     > Graph Traversal - BOJ_7576   
     > Graph Traversal - BOJ_10026 (Python3 시간초과, PyPy3 통과)   
     > Graph Traversal - BOJ_7569
     > Graph Traversal - BOJ_1987
    
-##### 2021.02.13
+##### 2022.02.13
     > Graph Traversal - BOJ_2206
 
-##### 2021.02.15
+##### 2022.02.15
     > Graph Traversal + Dynamic Programming - BOJ_1520
 
-##### 2021.02.20
+##### 2022.02.20
     > Graph Traversal - BOJ_2573 - visit 여부를 0/1 표시하다가 헷갈려서 개같이 멸망... 다음엔 그냥 True/False로 하자.
 
+##### 2022.08.15
+    > Graph Traversal -BOJ_2583 
+    
+    
 </div>
 </details>
 
