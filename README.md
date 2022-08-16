@@ -455,6 +455,7 @@ print(d[n])
     
 ##### 2022.08.16
     > Dynamic Programming - BOJ_1912
+    > Dynamic Programming - BOJ_2156
 </div>
 </details>
 
