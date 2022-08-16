@@ -452,6 +452,9 @@ print(d[n])
     > Dynamic Programming - BOJ_9095
     > Dynamic Programming - BOJ_11726
     > Dynamic Programming - BOJ_11053
+    
+##### 2022.08.16
+    > Dynamic Programming - BOJ_1912
 </div>
 </details>
 
