@@ -461,6 +461,7 @@ print(d[n])
     > Dynamic Programming - BOJ_9461
     > Dynamic Programming - BOJ_1932
     > Dynamic Programming - BOJ_10844
+    > Dynamic Programming - BOJ_11727
 </div>
 </details>
 
