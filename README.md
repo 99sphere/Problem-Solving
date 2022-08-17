@@ -462,6 +462,7 @@ print(d[n])
     > Dynamic Programming - BOJ_1932
     > Dynamic Programming - BOJ_10844
     > Dynamic Programming - BOJ_11727
+    > Greedy - BOJ_1026
 </div>
 </details>
 
