@@ -8,7 +8,7 @@
 - 탐욕법. 현재 상황에서 가장 최선의 것만 고르는 방식. 보통 문제에서 제시하는 기준에 따라, 각 상황에서 **가장 최선의 (보통 가장 큰 순서대로 or 가장 작은 순서대로) 선택**을 하면 된다. 
 - 이로 인해 자주 정렬 알고리즘과 짝을 이뤄 출제되는데, 문제 해결에는 보통 heapsort를 이용하더라. heapq 라이브러리를 이용하면 O(log n) 으로 정렬이 가능하다.
 
-### :trophy: Greedy Algorithm Example :trophy:
+### 📚 Greedy Algorithm Example 📚
 - [BOJ_13975: 파일합치기 3](https://www.acmicpc.net/problem/13975), [~~Solution~~](https://github.com/99sphere/Problem-Solving/blob/main/Greedy/BOJ_13975.py)      
 
 *****
@@ -27,7 +27,7 @@
 1,000,000|약 4MB|
 10,000,000|약 40MB|
 
-### :trophy: Implementation Example :trophy:    
+### 📚 Implementation Example 📚    
 
 *****
 
@@ -133,7 +133,7 @@ bfs(graph, 1, visited)
 
 - 이처럼 BFS는 큐 자료구조에 기초한다는 점에서 구현이 간단하다. 실제로 구현함에 있어 앞서 언급한대로 deque 라이브러리를 사용하는 것이 좋으며 탐색을 수행함에 있어 O(N)의 시간이 소요된다. 일반적인 경우 **실제 수행시간은 DFS보다 좋은 편**이라는 점까지만 추가로 기억하자.
 
-### :trophy: Graph Traversal Algorithm Example (DFS/BFS) :trophy:       
+### :books: Graph Traversal Algorithm Example (DFS/BFS) 📚:       
 - [BOJ_7576: 토마토](https://www.acmicpc.net/problem/7576), [~~Solution~~](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7576.py)
 - [BOJ_7569: 토마토(윗 문제의 3차원 버전)](https://www.acmicpc.net/problem/7569), [~~Solution~~](https://github.com/99sphere/Problem-Solving/blob/main/Graph%20Traversal/BOJ_7569.py)
 *****
@@ -226,7 +226,7 @@ for i in range(len(array)):
 #### 계수정렬의 시간복잡도
 앞서 언급했듯이 모든 데이터가 양의 정수인 상황에서 데이터의 개수를 N, 데이터 중 최댓값의 크기를 K라고 할 때, 계수정렬의 시간복잡도는 O(N+K)이다. 계수정렬은 앞에서부터 데이터를 하나씩 확인하면서 리스트에서 적절한 인덱스의 값을 1씩 증가시킬 뿐만 아니라, 추후에 리스트의 각 인덱스에 해당하는 값들을 확인할 때 데이터 중 최댓값의 크기만큼 반복을 수행해야 하기 때문이다. 따라서 데이터의 범위만 한정되어 있다면 효과적으로 사용할 수 있으며 항상 빠르게 동작한다. 같은 이유로 계수정렬의 공간복잡도 역시 O(N+K)이다.
 
-### :trophy: Sorting Algorithm Example (DFS/BFS) :trophy:       
+### :books: Sorting Algorithm Example (DFS/BFS) :books:       
 
 *****
 
@@ -289,7 +289,7 @@ def binary_search(array, target, start, end):
    return None
 ```
 
-### :trophy: Binary Search Example :trophy:
+### :books: Binary Search Example :books:
 
 
 *****
@@ -341,7 +341,7 @@ print(d[n])
 ```
 *****
 
-### :trophy: Dynamic Programming Example :trophy:
+### :books: Dynamic Programming Example :books:
 
 ## 7. Shortest Path
 > ****
