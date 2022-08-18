@@ -470,6 +470,7 @@ print(d[n])
     > Dynamic Programming - BOJ_1904
     > Greedy - BOJ_1439
     > Graph Traversal - BOJ_1325
+    > Binary Search - BOJ_1920
 </div>
 </details>
 
