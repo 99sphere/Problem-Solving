@@ -469,6 +469,7 @@ print(d[n])
 ##### 2022.08.18
     > Dynamic Programming - BOJ_1904
     > Greedy - BOJ_1439
+    > Graph Traversal - BOJ_1325
 </div>
 </details>
 
