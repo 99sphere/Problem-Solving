@@ -471,7 +471,8 @@ print(d[n])
     > Greedy - BOJ_1439
     > Graph Traversal - BOJ_1325
     > Binary Search - BOJ_1920
-    > Shortest Path - BOJ_18352
+    > Shortest Path (Dijkstra) - BOJ_18352
+    > Shortest Path (Floyd-Warshall) - BOJ_11404
 </div>
 </details>
 
