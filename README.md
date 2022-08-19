@@ -481,7 +481,7 @@ print(d[n])
     > Shortest Path (Floyd-Warshall) - BOJ_1956
     > Graph Traversal (DFS) - BOJ_1743
     > Graph Traversal (BFS) - BOJ_16953
-    > Greedy - 
+    > Greedy - BOJ_1049
     > DP - BOJ_1010
     > Binary Search 
     
