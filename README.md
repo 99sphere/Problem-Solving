@@ -478,7 +478,7 @@ print(d[n])
 ##### 2022.08.19
     > Shortest Path (Dijkstra) - BOJ_1446
     > Shortest Path (Dijkstra) - BOJ_1916
-    > Shortest Path (Floyd-Warshall) - 
+    > Shortest Path (Floyd-Warshall) - BOJ_1956
     > Graph Traversal (DFS) - BOJ_1743
     > Graph Traversal (BFS) - BOJ_16953
     > Greedy - 
