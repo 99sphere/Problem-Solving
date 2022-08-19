@@ -482,10 +482,10 @@ print(d[n])
     > Shortest Path (Floyd-Warshall) - BOJ_1956
     > Shortest Path (Floyd-Warshall) - BOJ_1613
     > Graph Traversal (DFS) - BOJ_1743
+    > Graph Traversal (DFS) - BOJ_9466
     > Graph Traversal (BFS) - BOJ_16953
     > Greedy - BOJ_1049
-    > DP - BOJ_1010
-
+    > Dynamic Programming - BOJ_1010
 </div>
 </details>
 
