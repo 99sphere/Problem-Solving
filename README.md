@@ -482,7 +482,7 @@ print(d[n])
     > Graph Traversal (DFS) - BOJ_1743
     > Graph Traversal (BFS) - BOJ_16953
     > Greedy - 
-    > DP - 
+    > DP - BOJ_1010
     > Binary Search 
     
 
