@@ -479,7 +479,7 @@ print(d[n])
     > Shortest Path (Dijkstra) - BOJ_1446
     > Shortest Path (Dijkstra) - 
     > Shortest Path (Floyd-Warshall) - 
-    > Graph Traversal (DFS) - 
+    > Graph Traversal (DFS) - BOJ_1743
     > Graph Traversal (BFS) - BOJ_16953
     > Greedy - 
     > DP - 
