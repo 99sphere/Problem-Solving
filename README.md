@@ -486,6 +486,9 @@ print(d[n])
     > Graph Traversal (BFS) - BOJ_16953
     > Greedy - BOJ_1049
     > Dynamic Programming - BOJ_1010
+    
+##### 2022.08.20
+    > Shortest Path (Dijkstra) - BOJ_1504
 </div>
 </details>
 
