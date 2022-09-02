@@ -490,6 +490,10 @@ print(d[n])
 ##### 2022.08.20
     > Shortest Path (Dijkstra) - BOJ_1504
     > Graph Traversal (BFS) - BOJ_2644
+
+##### 2022.09.02
+    > Greedy - BOJ_2812
+
 </div>
 </details>
 
