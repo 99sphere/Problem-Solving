@@ -498,6 +498,9 @@ print(d[n])
     > Greedy - BOJ_19539
     > Graph Traversal (BFS) - BOJ_16234
 
+##### 2022.09.08
+    > Graph Traversal (BFS) - BOJ_1926
+
 </div>
 </details>
 
