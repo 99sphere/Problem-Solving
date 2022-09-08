@@ -1,6 +1,6 @@
 # BOJ 1926
 # Author: Gu Lee
-# Date: 2022.08.19
+# Date: 2022.09.08
 # Source: https://www.acmicpc.net/problem/1926
 
 import sys
