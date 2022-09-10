@@ -504,7 +504,7 @@ print(d[n])
 ##### 2022.09.10
     > Graph Traversal (DFS) - BOJ_21736
     > Dynamic Programming (Knapsack) - BOJ_12865
-    > Sorting - BOJ_2170.py
+    > Sorting - BOJ_2170
 </div>
 </details>
 
