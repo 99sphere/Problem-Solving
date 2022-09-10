@@ -505,6 +505,7 @@ print(d[n])
     > Graph Traversal (DFS) - BOJ_21736
     > Dynamic Programming (Knapsack) - BOJ_12865
     > Sorting - BOJ_2170
+    > Shortest Paht (Floyd-Warshall) - BOJ_2660
 </div>
 </details>
 
