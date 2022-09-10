@@ -501,6 +501,9 @@ print(d[n])
 ##### 2022.09.08
     > Graph Traversal (BFS) - BOJ_1926
 
+##### 2022.09.10
+    > Graph Traversal (DFS) - BOJ_21736
+
 </div>
 </details>
 
