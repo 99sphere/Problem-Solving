@@ -506,6 +506,10 @@ print(d[n])
     > Dynamic Programming (Knapsack) - BOJ_12865
     > Sorting - BOJ_2170
     > Shortest Paht (Floyd-Warshall) - BOJ_2660
+
+##### 2022.09.11
+    > Dynamic Programming (LCS) - BOJ_9251
+
 </div>
 </details>
 
