@@ -510,6 +510,10 @@ print(d[n])
 ##### 2022.09.11
     > Dynamic Programming (LCS) - BOJ_9251
 
+##### 2022.09.12
+    > Dynamic Programming - BOJ_2293
+
+
 </div>
 </details>
 
