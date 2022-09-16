@@ -522,6 +522,8 @@ print(d[n])
     > Sorting - BOJ_5052
     > Shortest Path (Floyd-Warshall) - BOJ_11265
 
+##### 2022.09.17
+    > Shortest Path (Dijkstra) - BOJ_5972
 </div>
 </details>
 
