@@ -518,6 +518,8 @@ print(d[n])
     > Graph Traversal (BFS) - BOJ_5014
     > Shortest Path (Dijkstra) - BOJ_11779
 
+##### 2022.09.16
+    > Sorting - BOJ_5052
 
 </div>
 </details>
