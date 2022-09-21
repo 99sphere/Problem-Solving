@@ -524,6 +524,10 @@ print(d[n])
 
 ##### 2022.09.17
     > Shortest Path (Dijkstra) - BOJ_5972
+    
+##### 2022.09.21
+    > Dynamic Programming - BOJ_11055
+    
 </div>
 </details>
 
