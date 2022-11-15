@@ -534,6 +534,8 @@ print(d[n])
 ##### 22.10.15
     > Greedy - BOJ_1041
     
+##### 22.11.15
+    > Graph Traversal (BFS) - BOJ_7562
 </div>
 </details>
 
